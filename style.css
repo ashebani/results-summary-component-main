@@ -116,14 +116,19 @@ body {
     var(--light-salute)
   );
   padding-top: 1em;
-  height: 9em;
-  width: 9em;
+  margin-inline: auto;
+  width: 9rem;
+  aspect-ratio: 1 / 1;
   border-radius: 50%;
 }
 
 .results h2,
 .results h1 {
   color: var(--neutral-100);
+}
+
+h2 {
+  padding-bottom: 0.6rem;
 }
 
 .results h1 {
